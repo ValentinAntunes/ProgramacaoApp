@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Builds nativos
+android/.gradle/
+android/build/
+android/app/build/
+ios/Pods/
+ios/build/
+
+# Chaves e certificados
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Logs e variáveis de ambiente
+npm-debug.log*
+yarn-error.log*
+.env*.local
+
+# macOS
+.DS_Store
